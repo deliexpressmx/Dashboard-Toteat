@@ -3,4 +3,4 @@ pandas
 openpyxl
 requests
 plotly
-supabase-py
+supabase
