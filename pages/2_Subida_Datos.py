@@ -238,7 +238,7 @@ if st.button("Descargar ventas faltantes"):
 
         mapeo = obtener_mapeo_marcas()        
         
-        if not fechas_faltantes:
+        if len(fechas_faltantes) == 0:
             st.info("✅ No hay fechas faltantes. Ya estás al día.")
         else:
             total_registros = 0
